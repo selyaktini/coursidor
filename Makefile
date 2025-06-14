@@ -1,4 +1,4 @@
-GSL_PATH ?= /net/ens/renault/save/gsl-2.6/install
+GSL_PATH ?= /usr/local
 
 CC = gcc
 CFLAGS = -std=c99 -Wall -Wextra -g3 -fPIC -I$(GSL_PATH)/include -I./src -fprofile-arcs -ftest-coverage
